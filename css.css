@@ -1,0 +1,77 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family:'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3 { 
+    font-family:'Playfair Display', serif; }
+
+    h3 { font-size: 3rem;}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 span {
+    color: #037bc0;}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenedor h2 {
+    text-align: center;
+}
+
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+
+}
