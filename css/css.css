@@ -1,20 +1,32 @@
-html{
+html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 body {
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
 
-h1, h2, h3 { 
-    font-family:'Playfair Display', serif; }
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
 
-    h3 { font-size: 3rem;}
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
 
 .nav-principal {
     padding: 20px 0;
@@ -23,12 +35,14 @@ h1, h2, h3 {
 }
 
 h1 span {
-    color: #037bc0;}
+    color: #037bc0;
+}
 
 h1 {
     text-align: center;
     padding: 50px 0;
 }
+
 
 .hero {
     background-image: url(../img/principal.jpg);
@@ -76,7 +90,7 @@ img {
 
 }
 
-.nuestro-producto {
+.contenido-princial {
     background-color: #037bc0;
-    
+    padding-top: 5rem;
 }
