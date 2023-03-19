@@ -9,6 +9,8 @@ html {
     box-sizing: inherit;
 }
 
+/* Generales  */
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
@@ -28,12 +30,21 @@ h3 {
     font-size: 3rem;
 }
 
+
+.btn {
+    display: block;
+    background-color: #8cbc00;
+    text-transform: uppercase;
+    transition: backgroung-color 0.3s ease-out;
+    font-weight: 900;
+    padding: 1rem;
+}
+
 /* Utilidades  */
 .text-align-center  {
     text-align: center;
 }
 
-/*   */
 /*   */
 /*   */
 /*   */
@@ -108,13 +119,4 @@ img {
 .contenido-princial {
     background-color: #037bc0;
     padding-top: 5rem;
-}
-
-.btn {
-    display: block;
-    background-color: #8cbc00;
-    text-transform: uppercase;
-    transition: backgroung-color 0.3s ease-out;
-    font-weight: 900;
-    padding: 1rem;
 }
