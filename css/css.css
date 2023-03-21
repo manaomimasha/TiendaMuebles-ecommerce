@@ -8,49 +8,16 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
-/* Generales  */
-
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-}
+h1, h2, h3 { 
+    font-family:'Playfair Display', serif; }
 
-h2 {
-    text-align: center;
-    font-size: 4rem;
-}
-
-h3 {
-    font-size: 3rem;
-}
-
-
-.btn {
-    display: block;
-    background-color: #8cbc00;
-    text-transform: uppercase;
-    transition: backgroung-color 0.3s ease-out;
-    font-weight: 900;
-    padding: 1rem;
-}
-
-/* Utilidades  */
-.text-align-center  {
-    text-align: center;
-}
-
-/*   */
-/*   */
-/*   */
-/*   */
-
-
+    h3 { font-size: 3rem;}
 
 .nav-principal {
     padding: 20px 0;
@@ -67,7 +34,6 @@ h1 {
     padding: 50px 0;
 }
 
-
 .hero {
     background-image: url(../img/principal.jpg);
     height: 500px;
@@ -81,7 +47,7 @@ h1 {
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -115,8 +81,142 @@ img {
 }
 
 
-
-.contenido-princial {
-    background-color: #037bc0;
-    padding-top: 5rem;
+.contenido-principal {
+    padding-top: 2rem;
 }
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #fff;
+}
+
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto {
+    margin: 0 0 0.5rem 0;
+}
+
+
+.btn {
+    display: block;
+    background-color: #8cbc00;
+    text-transform: uppercase;
+    transition: backgroung-color 0.3s ease-out;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+/* Bloque: Sobre Nosotros   */
+
+
+.sobre-nosotros {
+    
+    background-image: linear-gradient(to right, transparent 50%,
+     #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    padding: 10rem;    
+}
+
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    color: #fff;  
+}
+
+.texto-nosotros {
+    grid-column: 2/3;
+
+}
+
+/* 
+    */
+
+/*    */
+
+/*    */
+
+/*    */
+
+
+
+.texto-producto a {
+    background-color: #8cbc00;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.texto-producto a:hover {
+    background-color: #769c02;
+    color: #fff
+}
+
+
+.contenido-principal {
+    padding-top: 2rem;
+}
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #fff;
+}
+
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto {
+    margin: 0 0 0.5rem 0;
+}
+
+
+
+.holamundo {
+    background-image: linear-gradient(to right, transparent, green 50%, green 90% ) ,
+     url(../img/producto1.jpg);
+     background-position: center left;
+    padding: 10rem;
+    background-repeat: no-repeat;
+        background-size: 100%, 120rem;
+
+}
+
+.gridholamundo {
+    display: grid;
+    grid-template-columns : repeat( 2, 1fr);
+    column-gap: 2rem;
+} 
+
+.holamundotexto {
+    grid-column: 2/3;
+    color: #e1e1e1;
+}
+
+.holamundotexto h2 {
+    text-align:start ;
+}
+
