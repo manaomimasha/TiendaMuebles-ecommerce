@@ -8,22 +8,16 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Playfair Display', serif;
-}
+h1, h2, h3 { 
+    font-family:'Playfair Display', serif; }
 
-h3 {
-    font-size: 3rem;
-}
+    h3 { font-size: 3rem;}
 
 .nav-principal {
     padding: 20px 0;
@@ -39,14 +33,6 @@ h1 {
     text-align: center;
     padding: 50px 0;
 }
-
-
-
-/* Utilidades  */
-.text-align-center {
-    text-align: center;
-}
-
 
 .hero {
     background-image: url(../img/principal.jpg);
@@ -92,79 +78,4 @@ img {
     color: #fff;
     border-bottom-left-radius: 10px;
 
-}
-
-/* Bloque: Sobre Nosotros   */
-
-
-.sobre-nosotros {
-
-    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
-    background-position: left center;
-    padding: 10rem 0;
-    background-repeat: no-repeat;
-    background-size: 100%, 120rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    color: #fff;
-    
-
-}
-
-
-
-.sobre-nosotros-grid {
-    max-width: 50rem;
-    margin: 0 auto;   
-    grid-column: 2/3;
-    text-align: start;
-}
-
-/*    */
-
-/*    */
-
-/*    */
-
-/*    */
-
-
-.contenido-principal {
-    padding-top: 2rem;
-}
-
-.producto {
-    background-color: #037bc0;
-}
-
-.texto-producto {
-    text-align: center;
-    color: #fff;
-}
-
-.texto-producto .precio {
-    font-size: 2.8rem;
-    font-weight: 900;
-}
-
-.texto-producto h3 {
-    margin: 0;
-}
-
-.texto-producto {
-    margin: 0 0 0.5rem 0;
-}
-
-.texto-producto a {
-    background-color: #8cbc00;
-    display: block;
-    text-transform: uppercase;
-    font-weight: 900;
-    padding: 1rem;
-}
-
-.texto-producto a:hover {
-    background-color: #769c02;
-    color: #fff
 }
