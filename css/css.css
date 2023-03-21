@@ -79,3 +79,113 @@ img {
     border-bottom-left-radius: 10px;
 
 }
+
+
+.contenido-principal {
+    padding-top: 2rem;
+}
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #fff;
+}
+
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto {
+    margin: 0 0 0.5rem 0;
+}
+
+
+.btn {
+    display: block;
+    background-color: #8cbc00;
+    text-transform: uppercase;
+    transition: backgroung-color 0.3s ease-out;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+/* Bloque: Sobre Nosotros   */
+
+
+.sobre-nosotros {
+    
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    color: #fff;
+    
+}
+
+.sobre-nosotros-grid {
+  padding: 10rem;
+      grid-column: 2/3;
+  
+}
+
+/*    */
+
+/*    */
+
+/*    */
+
+/*    */
+
+
+
+.texto-producto a {
+    background-color: #8cbc00;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.texto-producto a:hover {
+    background-color: #769c02;
+    color: #fff
+}
+
+
+.contenido-principal {
+    padding-top: 2rem;
+}
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #fff;
+}
+
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto {
+    margin: 0 0 0.5rem 0;
+}
