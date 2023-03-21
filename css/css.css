@@ -122,25 +122,28 @@ img {
 
 .sobre-nosotros {
     
-    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%,
+     #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
     background-position: left center;
-    padding: 10rem 0;
     background-repeat: no-repeat;
     background-size: 100%, 120rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    color: #fff;
-    
+    padding: 10rem;    
 }
 
 .sobre-nosotros-grid {
-  padding: 10rem;
-      grid-column: 2/3;
-  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    color: #fff;  
 }
 
-/*    */
+.texto-nosotros {
+    grid-column: 2/3;
+
+}
+
+/* 
+    */
 
 /*    */
 
@@ -189,3 +192,31 @@ img {
 .texto-producto {
     margin: 0 0 0.5rem 0;
 }
+
+
+
+.holamundo {
+    background-image: linear-gradient(to right, transparent, green 50%, green 90% ) ,
+     url(../img/producto1.jpg);
+     background-position: center left;
+    padding: 10rem;
+    background-repeat: no-repeat;
+        background-size: 100%, 120rem;
+
+}
+
+.gridholamundo {
+    display: grid;
+    grid-template-columns : repeat( 2, 1fr);
+    column-gap: 2rem;
+} 
+
+.holamundotexto {
+    grid-column: 2/3;
+    color: #e1e1e1;
+}
+
+.holamundotexto h2 {
+    text-align:start ;
+}
+
