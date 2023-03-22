@@ -8,16 +8,22 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
 }
 
-h1, h2, h3 { 
-    font-family:'Playfair Display', serif; }
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
 
-    h3 { font-size: 3rem;}
+h3 {
+    font-size: 3rem;
+}
 
 .nav-principal {
     padding: 20px 0;
@@ -108,33 +114,24 @@ img {
 }
 
 
-.btn {
-    display: block;
-    background-color: #8cbc00;
-    text-transform: uppercase;
-    transition: backgroung-color 0.3s ease-out;
-    font-weight: 900;
-    padding: 1rem;
-}
-
 /* Bloque: Sobre Nosotros   */
 
 
 .sobre-nosotros {
-    
+
     background-image: linear-gradient(to right, transparent 50%,
-     #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+            #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 100%, 120rem;
-    padding: 10rem;    
+    padding: 10rem;
 }
 
 .sobre-nosotros-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    color: #fff;  
+    color: #fff;
 }
 
 .texto-nosotros {
@@ -142,30 +139,8 @@ img {
 
 }
 
-/* 
-    */
 
-/*    */
-
-/*    */
-
-/*    */
-
-
-
-.texto-producto a {
-    background-color: #8cbc00;
-    display: block;
-    text-transform: uppercase;
-    font-weight: 900;
-    padding: 1rem;
-}
-
-.texto-producto a:hover {
-    background-color: #769c02;
-    color: #fff
-}
-
+/* Seccion Producto    */
 
 .contenido-principal {
     padding-top: 2rem;
@@ -193,23 +168,50 @@ img {
     margin: 0 0 0.5rem 0;
 }
 
+.btn {
+    display: block;
+    background-color: #8cbc00;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    color: #fff;
+    transition: backgroung-color 0.3s ease-out;
+}
+
+.texto-producto a:hover {
+    background-color: #769c02;
+    color: #fff
+}
+
+
+
+
+
+
+
+/*    */
+
+/*    */
+
+/* Mi practica   */
+
 
 
 .holamundo {
-    background-image: linear-gradient(to right, transparent, green 50%, green 90% ) ,
-     url(../img/producto1.jpg);
-     background-position: center left;
+    background-image: linear-gradient(to right, transparent, green 50%, green 90%),
+        url(../img/producto1.jpg);
+    background-position: center left;
     padding: 10rem;
     background-repeat: no-repeat;
-        background-size: 100%, 120rem;
+    background-size: 100%, 120rem;
 
 }
 
 .gridholamundo {
     display: grid;
-    grid-template-columns : repeat( 2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
-} 
+}
 
 .holamundotexto {
     grid-column: 2/3;
@@ -217,6 +219,5 @@ img {
 }
 
 .holamundotexto h2 {
-    text-align:start ;
+    text-align: start;
 }
-
