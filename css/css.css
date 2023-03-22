@@ -198,7 +198,7 @@ img {
 
 
 .holamundo {
-    background-image: linear-gradient(to right, transparent, green 50%, green 90%),
+    background-image: linear-gradient(to right, transparent 50%, green 50%, green 100%),
         url(../img/producto1.jpg);
     background-position: center left;
     padding: 10rem;
