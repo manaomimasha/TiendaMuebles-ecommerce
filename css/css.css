@@ -193,6 +193,7 @@ img {
     gap: 2rem;
 }
 
+
 .producto:nth-child(1){
     grid-column: 1/7;
     display: grid;
@@ -202,6 +203,16 @@ img {
     height: 43rem;
     width: 100%;
     object-fit: cover;
+
+.btn {
+    display: block;
+    background-color: #8cbc00;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    color: #fff;
+    transition: background-color #769c02 0.3s ease-out;
+
 }
 
 .producto:nth-child(2){
@@ -242,7 +253,7 @@ img {
 
 
 .holamundo {
-    background-image: linear-gradient(to right, transparent, green 50%, green 90%),
+    background-image: linear-gradient(to right, transparent 50%, green 50%, green 100%),
         url(../img/producto1.jpg);
     background-position: center left;
     padding: 10rem;
