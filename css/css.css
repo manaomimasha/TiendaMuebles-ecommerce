@@ -69,11 +69,11 @@ h3 {
 
 
 
-@media (min-width: 768px )
-{
-   .contenedor {
-    max-width: 100rem;
-    margin: 0 auto;}
+@media (min-width: 768px) {
+    .contenedor {
+        max-width: 100rem;
+        margin: 0 auto;
+    }
 }
 
 
@@ -244,13 +244,28 @@ img {
 
   */
 
-  
-    .sobre-nosotros { background-image: linear-gradient(to right, transparent 50%,
-    #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
-background-position: center, top left;
-background-size: 100%, 100rem;
-padding: 1rem;
-margin: 2rem 0;}
+
+.sobre-nosotros {
+    background-image: linear-gradient(to bottom, transparent 50%,
+            #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-position: center, top left;
+    background-size: 100%, 50rem;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+
+    .sobre-nosotros {
+        background-image: linear-gradient(to right, transparent 50%,
+                #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+        background-position: center, top left;
+        background-size: 100%, 100rem;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+}
 
 
 .sobre-nosotros-grid {
