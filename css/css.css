@@ -240,8 +240,6 @@ img {
 /* Bloque: Sobre Nosotros 
 
 @media (min-width: 768px ){
-    
-
     }
 
   */
@@ -254,6 +252,14 @@ background-size: 100%, 100rem;
 padding: 1rem;
 margin: 2rem 0;}
 
+
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     .sobre-nosotros-grid {
         display: grid;
@@ -263,25 +269,14 @@ margin: 2rem 0;}
     }
 }
 
-.sobre-nosotros-grid {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-    color: #fff;
-}
-
 .texto-nosotros {
     grid-row: 2/3;
-
 }
 
 @media (min-width: 768px) {
-
     .texto-nosotros {
         grid-column: 2/3;
-
     }
-
 }
 
 
