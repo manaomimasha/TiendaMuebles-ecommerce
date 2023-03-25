@@ -256,10 +256,6 @@ img {
     margin: 2rem 0;
 }
 
-}
-
-
-
 @media (min-width: 768px ){
     .sobre-nosotros { background-image: linear-gradient(to right, transparent 50%,
     #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
