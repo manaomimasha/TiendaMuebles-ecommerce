@@ -242,6 +242,13 @@ img {
 @media (min-width: 768px ){
     }
 
+    
+
+@media (min-width: 768px) {
+ 
+}
+
+
   */
 
 
@@ -290,7 +297,7 @@ img {
 
 @media (min-width: 768px) {
     .texto-nosotros {
-        grid-column: 2/3;
+        grid-column: 2/2;
     }
 }
 
