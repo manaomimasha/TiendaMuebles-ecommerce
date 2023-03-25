@@ -9,7 +9,13 @@ html {
     box-sizing: inherit;
 }
 
-/* Generalres*/
+/* Generalres 
+@media (min-width: 768px )
+{
+   
+}
+
+*/
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -23,14 +29,15 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', serif;  margin: 0 0 5rem 0;
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
 }
 
 h1 {
     font-size: 3.8rem;
 }
 
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     font-size: 5rem;
 }
 
@@ -38,7 +45,7 @@ h2 {
     font-size: 3.2rem;
 }
 
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     font-size: 4rem;
 }
 
@@ -46,7 +53,7 @@ h3 {
     font-size: 2rem;
 }
 
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     font-size: 3rem;
 }
 
@@ -67,7 +74,8 @@ h3 {
 }
 
 
-h1 span, span {
+h1 span,
+span {
     color: #037bc0;
 }
 
@@ -82,20 +90,23 @@ h1 {
 
 
 a {
-    text-decoration: none; color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 /* Seccion Categorias   */
 
-.categoria1, .categoria {
+.categoria1,
+.categoria {
     margin-bottom: 2rem;
 }
 
-.categoria1 img, .categoria img{
+.categoria1 img,
+.categoria img {
     width: 100%;
 }
 
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     .listado-categorias {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -139,15 +150,16 @@ a {
 .nav-principal {
     padding: 20px 0;
     display: flex;
-    flex-direction: column; align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-@media (min-width: 768px ){
-    .nav-principal{
-    justify-content: space-between;
-    flex-direction: row ;
-}
+@media (min-width: 768px) {
+    .nav-principal {
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
 
 
@@ -180,8 +192,9 @@ img {
 }
 
 
-@media (min-width: 768px ){
-    .hero { height: 55rem;
+@media (min-width: 768px) {
+    .hero {
+        height: 55rem;
 
 
     }
@@ -229,7 +242,7 @@ img {
     }
 
   */
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     .sobre-nosotros {
 
         background-image: linear-gradient(to right, transparent 50%,
@@ -244,11 +257,9 @@ img {
 }
 
 .sobre-nosotros {
-
     background-image: linear-gradient(to bottom, transparent 50%,
             #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
     background-position: center, top left;
-  
     background-size: 100%, 50rem;
     padding: 1rem;
     margin: 2rem 0;
@@ -256,7 +267,7 @@ img {
 
 
 
-@media (min-width: 768px ){
+@media (min-width: 768px) {
     .sobre-nosotros-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -271,17 +282,18 @@ img {
     gap: 1rem;
     color: #fff;
 }
+
 .texto-nosotros {
     grid-row: 2/3;
 
 }
 
-@media (min-width: 768px ){
-    
-.texto-nosotros {
-    grid-column: 2/3;
+@media (min-width: 768px) {
 
-}
+    .texto-nosotros {
+        grid-column: 2/3;
+
+    }
 
 }
 
@@ -422,15 +434,18 @@ img {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
 .sobre-nosotros-g:nth-child(1) img {
     height: 50rem;
     width: 100%;
     object-fit: cover;
 }
-.sobre-n{
+
+.sobre-n {
     font-size: 6rem;
 }
-.text-s-n{
+
+.text-s-n {
     padding-left: 5rem;
 }
 
@@ -446,5 +461,5 @@ img {
 
 .debajodeimgflex {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
