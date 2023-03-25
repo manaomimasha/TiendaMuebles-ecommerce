@@ -51,7 +51,7 @@ h3 {
     color: #fff
 }
 
-h1 span {
+h1 span, span {
     color: #037bc0;
 }
 
@@ -60,7 +60,9 @@ h1 {
     padding: 50px 0;
 }
 
-
+.bold {
+    font-weight: bold;
+}
 /*  Seccion Navegacion principal  */
 
 
@@ -333,4 +335,19 @@ a {
 }
 .text-s-n{
     padding-left: 5rem;
+}
+
+
+
+
+/* Blog */
+
+.gridblog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.debajodeimgflex {
+    display: flex;
+justify-content: space-between;
 }
