@@ -221,31 +221,70 @@ img {
 }
 
 /* Bloque: Sobre Nosotros   */
+/* Bloque: Sobre Nosotros 
 
+@media (min-width: 768px ){
+    
 
+    }
+
+  */
+@media (min-width: 768px ){
+    .sobre-nosotros {
+
+        background-image: linear-gradient(to right, transparent 50%,
+                #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 100%, 120rem;
+        padding: 10rem;
+        margin: 2rem 0;
+    }
+
+}
 
 .sobre-nosotros {
 
-    background-image: linear-gradient(to right, transparent 50%,
+    background-image: linear-gradient(to bottom, transparent 50%,
             #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 100%, 120rem;
-    padding: 10rem;
+    background-position: center, top left;
+  
+    background-size: 100%, 50rem;
+    padding: 1rem;
     margin: 2rem 0;
+}
+
+
+
+@media (min-width: 768px ){
+    .sobre-nosotros-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        color: #fff;
+    }
 }
 
 .sobre-nosotros-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
     color: #fff;
 }
+.texto-nosotros {
+    grid-row: 2/3;
 
+}
+
+@media (min-width: 768px ){
+    
 .texto-nosotros {
     grid-column: 2/3;
 
 }
+
+}
+
 
 
 /* Seccion Producto    */
