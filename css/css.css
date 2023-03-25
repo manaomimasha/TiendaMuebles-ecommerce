@@ -68,9 +68,12 @@ h3 {
 }
 
 
-.contenedor {
+
+@media (min-width: 768px )
+{
+   .contenedor {
     max-width: 100rem;
-    margin: 0 auto;
+    margin: 0 auto;}
 }
 
 
