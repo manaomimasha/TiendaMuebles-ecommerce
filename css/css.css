@@ -91,7 +91,7 @@ a {
     margin-bottom: 2rem;
 }
 
-.categoria1, categoria img{
+.categoria1 img, .categoria img{
     width: 100%;
 }
 
