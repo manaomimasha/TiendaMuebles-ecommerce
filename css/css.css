@@ -503,3 +503,14 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+legend {
+    display: table; 
+    min-width: 0px;
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 20px;
+    text-align: center;
+}
