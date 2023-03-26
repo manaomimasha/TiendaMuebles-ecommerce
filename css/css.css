@@ -517,11 +517,6 @@ legend {
 }
 
 
-@media (max-width: 500px ) {main .form {
-   max-width: 30rem;
-    margin: 0 auto;
-}}
-
 @media (min-width: 768px )
 { main .form {
         max-width: 100rem;
@@ -531,3 +526,9 @@ legend {
    
 
 }
+
+@media (max-width: 768px )
+ {main .form {
+   max-width: 30rem;
+    margin: 0 auto;
+}}
