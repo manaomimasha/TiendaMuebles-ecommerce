@@ -515,3 +515,16 @@ legend {
     font-size: 20px;
     text-align: center;
 }
+
+.form{
+ 
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px )
+{
+   
+
+}
