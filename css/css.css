@@ -20,6 +20,9 @@ html {
 
 */
 
+.text-center{
+    text-align: center;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
