@@ -1,6 +1,9 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin: 0;
+    overflow-x:hidden ;
+
 }
 
 *,
@@ -21,6 +24,8 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
     line-height: 2;
+    overflow-x:hidden ;
+    width: 100%;
 }
 
 
@@ -67,15 +72,12 @@ h3 {
     transition: background-color 0.3s ease-out;
 }
 
-
-
 @media (min-width: 768px) {
     .contenedor {
         max-width: 100rem;
         margin: 0 auto;
     }
 }
-
 
 h1 span,
 span {
@@ -199,7 +201,6 @@ img {
     .hero {
         height: 55rem;
 
-
     }
 }
 
@@ -287,8 +288,9 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: unset;
-        gap: 1rem;
+        column-gap: 5rem;
         color: #fff;
+        
     }
 }
 
@@ -302,7 +304,10 @@ img {
     }
 }
 
-
+.texto-nosotros h2 {
+    padding-bottom: 0.3rem;
+    margin:1rem;
+}
 
 /* Seccion Producto    */
 
