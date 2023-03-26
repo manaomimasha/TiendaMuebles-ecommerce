@@ -268,8 +268,9 @@ img {
                 #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
         background-position: center, top left;
         background-size: 100%, 100rem;
-        padding: 1rem;
+        padding: 10rem;
         margin: 2rem 0;
+        height: 40rem;
     }
 
 }
