@@ -286,6 +286,7 @@ img {
     .sobre-nosotros-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: unset;
         gap: 1rem;
         color: #fff;
     }
