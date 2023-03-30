@@ -61,7 +61,7 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" placeholder="Email">
             </div>
-            
+
             <div>
                 <label for="textarea">Tu mensaje:</label>
                 <textarea rows="20"> </textarea>
@@ -71,10 +71,34 @@
 
         <fieldset class="form">
             <legend class="text-center"> Pais</legend>
+            <div class="campo">
+                <select id="pais">
+                    <option value="" disabled> --Seleccione-- </option>
+                    <option value="Ar" selected> Argentina</option>
+                    <option value="">Chile </option>
+                    <option value=""> Colombia</option>
+                    <option value=""> Mexico</option>
+                    <option value="">Rusia</option>
+                </select>
+
+
+
+            </div>
         </fieldset>
 
         <fieldset class="form">
             <legend class="text-center"> Más Información</legend>
+            <div class="campo">
+                <label for="cliente">Cliente</label>
+                <input type="radio" id="cliente" name="tipo">
+
+            </div>
+
+            <div class="campo">
+                <label for="proveedor">Proveedr</label>
+                <input type="radio" id="proveedor" name="tipo">
+
+            </div>
         </fieldset>
 
     </main>
