@@ -549,3 +549,7 @@ display: flex;
 flex-basis: 10rem;
 margin-bottom: 2rem;
 }
+
+.campo input {
+    margin-bottom: 1rem;
+}
