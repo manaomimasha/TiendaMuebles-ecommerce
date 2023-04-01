@@ -505,6 +505,11 @@ img {
 }
 
 
+
+/* Contacto */
+
+
+
 legend {
     background-color: #005485;
     margin: 1rem;
@@ -514,14 +519,19 @@ legend {
     margin-bottom: 2rem;
     padding: 1rem;
     width: 100%;
+    margin-top: 2rem;
     
 }
 
 .form {
-    width:50% ;
     margin: 0 auto;
-    max-width: 100rem;
+    max-width: 60rem;
 
+}
+
+.form fieldset {
+    border-color: 1px solid black;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 768px )
