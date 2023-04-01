@@ -85,7 +85,7 @@ h3 {
 
 @media (min-width: 768px) {
     .contenedor {
-        max-width: 100rem;
+        max-width: 120rem;
         margin: 0 auto;
     }
 }
@@ -577,7 +577,7 @@ textarea {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .galeria img {
