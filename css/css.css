@@ -543,13 +543,10 @@ legend {
 
 .campo {
 display: flex;
+margin-bottom: 1rem;
 }
 
 .campo label {
 flex-basis: 10rem;
 margin-bottom: 2rem;
-}
-
-.campo input {
-    margin-bottom: 1rem;
 }
