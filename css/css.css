@@ -20,9 +20,10 @@ html {
 
 */
 
-.text-center{
+.text-center {
     text-align: center;
 }
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
@@ -73,6 +74,13 @@ h3 {
     padding: 1rem;
     color: #fff;
     transition: background-color 0.3s ease-out;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #769c02;
+
 }
 
 @media (min-width: 768px) {
@@ -343,7 +351,7 @@ img {
 }
 
 .contenido-principal h2 {
-    margin-bottom: 5rem ;
+    margin-bottom: 5rem;
 }
 
 /*.texto-producto {
@@ -409,8 +417,9 @@ img {
     margin-top: 10rem;
     padding-top: 10rem;
 
-    
+
 }
+
 .footer-grid {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -422,18 +431,17 @@ img {
     flex-direction: column;
 }
 
-@media (min-width: 768px )
-{
-   
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+@media (min-width: 768px) {
 
-.nav-grid {
-    display: flex;
-    flex-direction: column;
-}
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .nav-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -512,16 +520,12 @@ img {
 
 legend {
     background-color: #005485;
-    margin: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-bottom: 2rem;
-    padding: 1rem;
     width: 100%;
-    margin-top: 2rem;
     color: #fff;
-    
+    padding: 0.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 
 .form {
@@ -535,19 +539,31 @@ legend {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 768px )
- {main .form {
-   max-width: 30rem;
-    margin: 0 auto;
-}}
+@media (max-width: 768px) {
+    main .form {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+}
 
 .campo {
-display: flex;
-align-items: baseline;
+    display: flex;
+    margin-bottom: 2rem;
 }
 
 .campo label {
-flex-basis: 10rem;
-margin-bottom: 2rem;
+    flex-basis: 10rem;
 
+}
+
+textarea {
+    font-style: italic;
+}
+
+.campo input:not([type="radio"]), 
+.campo textarea,
+.campo select {
+ border: 1px solid #e1e1e1;
+ flex: 1;
+ padding: 1rem;
 }
