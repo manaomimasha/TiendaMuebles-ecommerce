@@ -506,20 +506,19 @@ img {
 
 
 legend {
-    display: table; 
-    min-width: 0px;
-    max-width: 70%;
-    position: relative;
-    margin: auto;
-    padding: 5px 20px;
-    font-size: 20px;
+    background-color: #037bc0;
+    margin: 1rem;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    
 }
 
 .form {
     width:50% ;
     margin: 0 auto;
     max-width: 100rem;
+
 }
 
 @media (max-width: 768px )
@@ -527,3 +526,11 @@ legend {
    max-width: 30rem;
     margin: 0 auto;
 }}
+
+.campo {
+display: flex;
+}
+
+.campo label {
+flex-basis: 10rem;
+}
