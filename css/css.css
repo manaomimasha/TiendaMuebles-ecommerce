@@ -527,8 +527,7 @@ legend {
 .form {
     margin: 0 auto;
     max-width: 60rem;
-    margin-bottom: 10rem;
-
+    margin-bottom: 2rem;
 }
 
 .form fieldset {
@@ -548,4 +547,5 @@ display: flex;
 
 .campo label {
 flex-basis: 10rem;
+margin-bottom: 2rem;
 }
