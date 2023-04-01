@@ -567,3 +567,25 @@ textarea {
  flex: 1;
  padding: 1rem;
 }
+
+
+/* Galeria */
+
+.galeria{
+    margin: 0;
+    padding: 0;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 1rem;
+
+}
+
+li {
+    list-style: none;
+  }
+
+.galeria img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+}
