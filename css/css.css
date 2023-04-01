@@ -506,11 +506,14 @@ img {
 
 
 legend {
-    background-color: #037bc0;
+    background-color: #005485;
     margin: 1rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 100%;
     
 }
 
